@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_texts",
+  "info": {
+    "singularName": "info-text",
+    "pluralName": "info-texts",
+    "displayName": "infoText"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

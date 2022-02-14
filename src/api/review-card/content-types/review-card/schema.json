@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "review_cards",
+  "info": {
+    "singularName": "review-card",
+    "pluralName": "review-cards",
+    "displayName": "Testimonials",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "pressTitle": {
+      "type": "string"
+    }
+  }
+}

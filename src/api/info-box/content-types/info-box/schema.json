@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_boxes",
+  "info": {
+    "singularName": "info-box",
+    "pluralName": "info-boxes",
+    "displayName": "infoBox",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

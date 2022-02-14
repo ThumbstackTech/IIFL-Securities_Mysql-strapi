@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "points_cards",
+  "info": {
+    "singularName": "points-card",
+    "pluralName": "points-cards",
+    "displayName": "pointsCard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

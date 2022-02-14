@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dpvs",
+  "info": {
+    "singularName": "dpv",
+    "pluralName": "dpvs",
+    "displayName": "DPV",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "commision": {
+      "type": "string"
+    },
+    "dpv": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "cardTitle": {
+      "type": "string"
+    }
+  }
+}

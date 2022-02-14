@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products_cards",
+  "info": {
+    "singularName": "products-card",
+    "pluralName": "products-cards",
+    "displayName": "learn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

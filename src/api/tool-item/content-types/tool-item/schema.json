@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tool_items",
+  "info": {
+    "singularName": "tool-item",
+    "pluralName": "tool-items",
+    "displayName": "plateform",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

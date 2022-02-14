@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customer_cards",
+  "info": {
+    "singularName": "customer-card",
+    "pluralName": "customer-cards",
+    "displayName": "customerSupport",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "customerImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

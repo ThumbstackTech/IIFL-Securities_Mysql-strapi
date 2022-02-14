@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tool_cards",
+  "info": {
+    "singularName": "tool-card",
+    "pluralName": "tool-cards",
+    "displayName": "tool",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "toolImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

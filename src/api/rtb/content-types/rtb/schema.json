@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rtbs",
+  "info": {
+    "singularName": "rtb",
+    "pluralName": "rtbs",
+    "displayName": "RTB",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleName": {
+      "type": "string"
+    },
+    "titleValue": {
+      "type": "string"
+    },
+    "bgLayer": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

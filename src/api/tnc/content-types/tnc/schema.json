@@ -1,0 +1,15 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tncs",
+  "info": {
+    "singularName": "tnc",
+    "pluralName": "tncs",
+    "displayName": "tnc"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+  }
+}

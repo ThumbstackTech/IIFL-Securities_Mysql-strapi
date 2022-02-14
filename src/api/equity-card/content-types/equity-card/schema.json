@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equity_cards",
+  "info": {
+    "singularName": "equity-card",
+    "pluralName": "equity-cards",
+    "displayName": "feature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "featureImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

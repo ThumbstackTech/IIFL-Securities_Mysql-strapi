@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customer_support_items",
+  "info": {
+    "singularName": "customer-support-item",
+    "pluralName": "customer-support-items",
+    "displayName": "customerSupportItem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

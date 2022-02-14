@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_cards",
+  "info": {
+    "singularName": "info-card",
+    "pluralName": "info-cards",
+    "displayName": "investmentOffering",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "offeringsTitle": {
+      "type": "string"
+    },
+    "offeringsImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}
